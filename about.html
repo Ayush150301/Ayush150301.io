@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="about.css" />
+  </head>
+  <body>
+    <!-- <div id="container">
+      <div class="ring"></div>
+      <div class="ring"></div>
+      <div class="ring"></div>
+      <span class="loading">Loading...</span>
+    </div> -->
+    <div class="Heading">
+      <!-- <h1>About Me</h1> -->
+      <span id="element1"></span>
+    </div>
+    <div class="Second-line">
+      <h2>Welcome to my portfolio website!</h2>
+      <p>
+        I am a student of Jaypee University of Technology and Engineering
+        pursing Bachelor of Technology in Computer Science Engineering course.
+      </p>
+      <p>
+        I am delighted to present a showcase of my skills, experiences, and
+        creative endeavors. This website serves as a window into my professional
+        journey, where you can explore the projects I have undertaken and the
+        passion I bring to my work.
+      </p>
+      <p>
+        Within these virtual pages, you will find a collection of my finest
+        achievements, ranging from web design and development to graphic design,
+        writing, and more. Each project represents a unique opportunity where I
+        have applied my knowledge, honed my expertise, and pushed the boundaries
+        of creativity.
+      </p>
+      <p>
+        As you navigate through the various sections, you will witness the
+        evolution of my craft and gain insights into the diverse range of
+        projects I have been involved in. Whether it's crafting engaging user
+        experiences, solving complex problems through elegant design solutions,
+        or communicating ideas through compelling visuals, I strive to create
+        meaningful and impactful work.
+      </p>
+      <p>
+        My commitment to excellence is evident in every pixel, line of code, and
+        written word. I believe in the power of collaboration, constantly
+        seeking new challenges and opportunities to collaborate with fellow
+        professionals, clients, and organizations to bring innovative ideas to
+        life.
+      </p>
+      <p>
+        Beyond showcasing my technical skills and accomplishments, this website
+        aims to provide a glimpse into my personality, work ethic, and passion
+        for what I do. I believe that successful projects are built on strong
+        relationships, effective communication, and a deep understanding of the
+        end-users' needs and aspirations.
+      </p>
+      <p>
+        Thank you for taking the time to explore my portfolio. I invite you to
+        immerse yourself in my work, engage with the projects, and envision the
+        possibilities that can be realized when creativity and expertise
+        converge. I look forward to connecting with you, sharing ideas, and
+        bringing visions to life. Welcome once again, and enjoy your journey
+        through my portfolio!
+      </p>
+    </div>
+    <hr />
+    <div class="Heading">
+      <!-- <h1>Skills</h1> -->
+      <span id="element2"></span>
+    </div>
+    <div class="Skills-edit">
+      <ul>
+        <li>Java: 7/10</li>
+        <li>C++: 5/10</li>
+        <li>HTML: 5/10</li>
+        <li>CSS: 5/10</li>
+        <li>JavaScript: 3/10</li>
+      </ul>
+    </div>
+    <hr />
+    <div class="Heading">
+      <!-- <h1>Tools</h1> -->
+      <span id="element3"></span>
+    </div>
+    <div class="Tools-edit">
+      <ul>
+        <li>Ms-Excel</li>
+        <li>Mongo-DB</li>
+        <li>Vs-code</li>
+        <li>Jupyter NoteBook</li>
+      </ul>
+    </div>
+    <hr />
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element1", {
+        strings: ["About Me"],
+        typeSpeed: 50,
+      });
+      var typed = new Typed("#element2", {
+        strings: ["Skills"],
+        typeSpeed: 50,
+      });
+      var typed = new Typed("#element3", {
+        strings: ["Tools"],
+        typeSpeed: 50,
+      });
+    </script>
+    <script>
+      var loader = document.getElementsById("container");
+
+      window.addEventListener("load", function () {
+        loader.style.display = "none";
+      })
+
+    </script>
+  </body>
+</html>

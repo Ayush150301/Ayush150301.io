@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <div class="Heading">
+      <span id="element1"></span>
+    </div>
+    <div class="form-edit">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input
+          type="hidden"
+          name="access_key"
+          value="1ee5de86-d645-4604-bf6f-139099b30f7a"
+        />
+
+        <div class="name">
+          <input
+            type="text"
+            name="name"
+            required
+            placeholder="Enter your Name"
+          />
+        </div>
+        <div class="email">
+          <input
+            type="email"
+            name="email"
+            required
+            placeholder="Enter your Email"
+          />
+        </div>
+        <div class="message">
+          <textarea
+            name="message"
+            required
+            placeholder="Enter your Message"
+          ></textarea>
+        </div>
+
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element1", {
+        strings: ["Contact Me"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
